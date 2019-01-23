@@ -4,7 +4,14 @@
 	<title>Online Compiler</title>
 </head>
 <body>
-	<form align = "center" action = "compile.jsp" method="POST">
+	
+	<form align = "center" action = "compile.jsp" >
+		<select name = "lang">
+		<option value="c">C</option>
+		<option value="c++">C++</option>
+		<option value="java">JAVA</option>
+		</select>
+		<br>
 		Enter your Code : <br>
 		<textarea name="code" rows="30" cols="100" style="margin: 20px"></textarea><br>
 		INPUT : <br>
